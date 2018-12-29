@@ -1,15 +1,15 @@
 Usage: 
 ```
-python3 imageCompression.py -filename -n
+& python3 imageCompression.py -filename -n
 ```
 e.g.
 ```
-python3 imageCompression.py example.png 100
+& python3 imageCompression.py example.png 100
 ```
 Requirement: python 3.7 or above numpy installed Pillow installed.  
 To install type 
 ``` 
-& pip3 numpy Pillow
+& pip3 install numpy Pillow
 ```
 in terminal  
 n is the number of eigenvalues you take. The quality of image depends on the value of n.
