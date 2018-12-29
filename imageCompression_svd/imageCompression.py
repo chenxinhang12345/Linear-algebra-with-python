@@ -1,6 +1,5 @@
 from PIL import Image
 import numpy as np
-import scipy as sc
 import sys
 #data must be a 2d array n is the number of eigenvalues taken
 def compressData(data,n):
